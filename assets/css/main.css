@@ -1764,3 +1764,231 @@ body.is-article-visible #footer {
 body.is-preload #footer {
   opacity: 0;
 }
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  width: 100%;
+  font-weight: 400;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  margin-bottom: 2em;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.img-fluid,
+.modal-dialog.cascading-modal.modal-avatar .modal-header,
+.video-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.z-depth-0 {
+  box-shadow: none !important;
+}
+
+.pt-2,
+.py-2 {
+  padding-top: 0.5rem !important;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.pl-2,
+.px-2 {
+  padding-left: 0.5rem !important;
+}
+
+.pb-2,
+.py-2 {
+  padding-bottom: 0.5rem !important;
+}
+
+.pr-2,
+.px-2 {
+  padding-right: 0.5rem !important;
+}
+
+element {
+}
+.pl-2,
+.px-2 {
+  padding-left: 0.5rem !important;
+}
+.pb-2,
+.py-2 {
+  padding-bottom: 0.5rem !important;
+}
+.pr-2,
+.px-2 {
+  padding-right: 0.5rem !important;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+.p-2 {
+  padding: 0.5rem !important;
+}
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.product-price {
+  text-align: center;
+  color: #900;
+  font-weight: bold;
+}
+
+.mb-1,
+.my-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.a-button-primary {
+  border-color: #cba957 #bf942a #aa8326;
+  background: #f0c14b;
+}
+
+.a-button-primary .a-button-inner {
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  background-color: #f7dfa5;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f7dfa5),
+    to(#f0c14b)
+  );
+  background: -webkit-linear-gradient(top, #f7dfa5, #f0c14b);
+  background: -moz-linear-gradient(top, #f7dfa5, #f0c14b);
+  background: -ms-linear-gradient(top, #f7dfa5, #f0c14b);
+  background: -o-linear-gradient(top, #f7dfa5, #f0c14b);
+  background: #f3d078;
+}
+
+.a-button-inner {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+}
+
+.a-button {
+  background: #d8dde6;
+  display: block;
+  padding: 0;
+  vertical-align: middle;
+  height: 31px;
+  *height: 29px;
+  border: 1px solid;
+  border-top-color: currentcolor;
+  border-right-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-left-color: currentcolor;
+  border-color: #bcc1c8 #bababa #adb2bb;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none !important;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 130px;
+  box-sizing: border-box;
+  margin-top: 11px;
+}
+
+.mt-0,
+.my-0 {
+  margin-top: 0 !important;
+}
+
+.a-button-input {
+  position: absolute;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  outline: 0;
+  border: 0;
+  overflow: visible;
+  cursor: pointer;
+  opacity: 0.01;
+  filter: alpha(opacity=1);
+}
+
+.a-button-text {
+  position: relative;
+  z-index: 10;
+  color: #111;
+  font-size: 12px;
+  text-align: center;
+  line-height: 29px;
+  display: block;
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  background-color: transparent;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  padding: 0 2px 0 2px;
+}
